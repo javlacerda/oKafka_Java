@@ -1,0 +1,265 @@
+[
+	{
+		"name": "$GetServer",
+		"order": 1,
+		"pvardefs": [
+			{
+				"name": "pcRefServer",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetServerRest",
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pcRefServer",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetSchemaRegistryUrl",
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pcRefUrl",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetSchemaRegistryServer",
+		"order": 4,
+		"pvardefs": [
+			{
+				"name": "pcRefServer",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetTopic",
+		"order": 5,
+		"pvardefs": [
+			{
+				"name": "pcRefTopic",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetTopic_Schema",
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pcRefTopic",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetClientId",
+		"order": 7,
+		"pvardefs": [
+			{
+				"name": "pcRefTopic",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetGroupId",
+		"order": 8,
+		"pvardefs": [
+			{
+				"name": "pcRefTopic",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetLstConfig",
+		"order": 9,
+		"pvardefs": [
+			{
+				"name": "pnOperation",
+				"order": 1,
+				"type": "kInteger",
+				"subtype": "k32bitint",
+				"sublen": 0,
+				"param": 1
+			},
+			{
+				"name": "pRefLstConfig",
+				"order": 2,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 2
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetLstHeaders",
+		"order": 10,
+		"pvardefs": [
+			{
+				"name": "pRefLstHeaders",
+				"order": 2,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetSchemaStr",
+		"order": 11,
+		"pvardefs": [
+			{
+				"name": "pcRefSchemaStr",
+				"order": 2,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetRowSchema",
+		"order": 12,
+		"pvardefs": [
+			{
+				"name": "pRefRowSchema",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DefRowSchema",
+		"order": 13,
+		"pvardefs": [
+			{
+				"name": "pRefRowSchema",
+				"order": 2,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DefRowSchemaInfo",
+		"order": 14,
+		"pvardefs": [
+			{
+				"name": "pRefRowSchemaInfo",
+				"order": 2,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$DefLstHeaders",
+		"order": 15,
+		"pvardefs": [
+			{
+				"name": "pcRefLstHeaders",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

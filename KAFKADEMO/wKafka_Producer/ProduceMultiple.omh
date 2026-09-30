@@ -1,0 +1,8 @@
+If ivnType=ucKafka.PYTHON_OW
+	Do method ProduceMultiple_Python
+Else If ivnType=ucKafka.JAVA_OW
+	Do method ProduceMultiple_Java
+Else
+	Do method ProduceMultiple_xcomp
+End If
+Quit method

@@ -1,0 +1,44 @@
+{
+	"classtype": "kMenu",
+	"omnisversion": "11.1",
+	"omnisbuild": 111037255,
+	"internalversion": 14,
+	"designtaskname": "Startup_Task",
+	"nextident": 1038,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+
+	],
+	"properties": {
+		"canremotedebugwhenlocked": false,
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componentinfo": {
+
+		},
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2025-10-16 10:24:17",
+		"defaulticoncolor": "kColorDefault",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"enabled": true,
+		"external": true,
+		"helpfile": 0,
+		"helptext": "",
+		"inheritedorder": 0,
+		"issupercomponent": false,
+		"moddate": "2026-08-07 19:19:23",
+		"showascheckedout": false,
+		"title": {
+			"type": 0,
+			"calc": "Apache Kafka"
+		},
+		"userinfo": "",
+		"users": "12345678",
+		"vcsrevision": 0,
+		"version": ""
+	}
+}

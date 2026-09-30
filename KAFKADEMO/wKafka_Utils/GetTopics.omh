@@ -1,0 +1,7 @@
+If ivnType=ucKafka.PYTHON_OW
+	Do method GetTopics_Python
+Else If ivnType=ucKafka.JAVA_OW
+	Do method GetTopics_Java
+Else
+	Do method GetTopics_xcomp
+End If

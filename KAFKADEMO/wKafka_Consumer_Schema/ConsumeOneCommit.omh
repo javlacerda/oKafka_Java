@@ -1,0 +1,7 @@
+If ivnType=ucKafka.PYTHON_OW
+	Do method ConsumeOneCommit_Python
+Else If ivnType=ucKafka.JAVA_OW
+	Do method ConsumeOneCommit_Java
+Else
+	Do method ConsumeOneCommit_xcomp
+End If

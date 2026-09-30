@@ -1,0 +1,8 @@
+If ivnType=ucKafka.PYTHON_OW
+	Do method ConsumeOcc_Open_Python
+Else If ivnType=ucKafka.JAVA_OW
+	Do method ConsumeOcc_Open_Java
+Else
+	Do method ConsumeOcc_Open_xcomp
+End If
+Quit method

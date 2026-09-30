@@ -1,0 +1,7 @@
+If ivnType=ucKafka.PYTHON_OW
+	Do method GetSubjects_Python
+Else If ivnType=ucKafka.JAVA_OW
+	Do method GetSubjects_Java
+Else
+	Do method GetSubjects_xcomp
+End If

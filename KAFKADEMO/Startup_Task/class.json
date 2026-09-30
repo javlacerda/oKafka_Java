@@ -1,0 +1,48 @@
+{
+	"classtype": "kTask",
+	"omnisversion": "11.1",
+	"omnisbuild": 111037255,
+	"internalversion": 48,
+	"tvardefs": [
+
+	],
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "ivoJavaWorker",
+			"order": 1,
+			"type": "kObjectref",
+			"subtype": "oJava_Worker",
+			"sublen": 0
+		},
+		{
+			"name": "ivoPythonWorker",
+			"order": 2,
+			"type": "kObjectref",
+			"subtype": "oPython_Worker",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"canremotedebugwhenlocked": false,
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componentinfo": {
+
+		},
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2025-06-11 22:41:47",
+		"desc": "",
+		"editor": "",
+		"editordata": "",
+		"external": true,
+		"issupercomponent": false,
+		"moddate": "2026-08-14 07:00:26",
+		"showascheckedout": false,
+		"userinfo": "",
+		"vcsrevision": 0,
+		"version": ""
+	}
+}

@@ -1,0 +1,8 @@
+Do pRefRowSchema.$define()
+Do pRefRowSchema.$cols.$add("Id",kInteger,k32bitint)
+Do pRefRowSchema.$cols.$add("Name",kCharacter,kSimplechar)
+Do pRefRowSchema.$cols.$add("Email",kCharacter,kSimplechar)
+Do pRefRowSchema.$cols.$add("Age",kInteger,k32bitint)
+Do pRefRowSchema.$cols.$add("Active",kBoolean)
+Do pRefRowSchema.$cols.$add("DateCreated",kDate,kDatetime)
+Quit method

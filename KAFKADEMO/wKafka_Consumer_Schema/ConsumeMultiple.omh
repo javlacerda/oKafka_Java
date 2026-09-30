@@ -1,0 +1,7 @@
+If ivnType=ucKafka.PYTHON_OW
+	Do method ConsumeMultiple_Python
+Else If ivnType=ucKafka.JAVA_OW
+	Do method ConsumeMultiple_Java
+Else
+	Do method ConsumeMultiple_xcomp
+End If

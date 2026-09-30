@@ -1,0 +1,166 @@
+[
+	{
+		"name": "$workererror",
+		"order": 1,
+		"pvardefs": [
+			{
+				"name": "pError",
+				"order": 1,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$methodreturn",
+		"order": 2,
+		"pvardefs": [
+			{
+				"name": "pResults",
+				"order": 1,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$methoderror",
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pError",
+				"order": 1,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$SetCallingInstance",
+		"order": 4,
+		"pvardefs": [
+			{
+				"name": "pRefInstance",
+				"order": 1,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$ClearCallingInstance",
+		"order": 5,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$callmethod",
+		"order": 6,
+		"pvardefs": [
+			{
+				"name": "pcModule",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			},
+			{
+				"name": "pcMethod",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 2
+			},
+			{
+				"name": "pRowParam",
+				"order": 3,
+				"type": "kRow",
+				"subtype": "",
+				"sublen": 0,
+				"param": 3
+			}
+		],
+		"lvardefs": [
+			{
+				"name": "lvbOk",
+				"order": 5,
+				"type": "kBoolean",
+				"subtype": 0,
+				"sublen": 0
+			},
+			{
+				"name": "lvcErrorText",
+				"order": 4,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
+		]
+	},
+	{
+		"name": "$GetRowResult",
+		"order": 7,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetSuccess",
+		"order": 8,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "InitVars",
+		"order": 9,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$GetErrorMessage",
+		"order": 10,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	}
+]
